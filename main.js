@@ -15,8 +15,6 @@ mongoose.connect(process.env.DB_URL, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     retryWrites: true,
-    ssl: true,
-    sslValidate: false,
     w: 'majority'
 });
 
