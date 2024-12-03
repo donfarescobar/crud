@@ -1,0 +1,58 @@
+<%- include('layout/header') %>
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-6 col-md-8 col-sm-12">
+            <div class="card shadow-lg border-0">
+                <div class="card-header text-white text-center" style="background: linear-gradient(90deg, #28a745, #218838);">
+                    <h4 class="mb-0">Edit User (<%= user.name %>)</h4>
+                </div>
+                <div class="card-body bg-light">
+                    <form action="/update/<%= user._id %>" method="POST" id="editUserForm" enctype="multipart/form-data">
+                        <div class="row">
+                            <!-- Name -->
+                            <div class="col-12 mb-3">
+                                <label for="name" class="form-label">Name</label>
+                                <input type="text" class="form-control rounded-pill" id="name" name="name" placeholder="Enter Name" value="<%= user.name %>" required>
+                            </div>
+
+                            <!-- Email -->
+                            <div class="col-12 mb-3">
+                                <label for="email" class="form-label">Email Address</label>
+                                <input type="email" class="form-control rounded-pill" id="email" name="email" placeholder="Enter Email" value="<%= user.email %>" required>
+                            </div>
+
+                            <!-- Phone -->
+                            <div class="col-12 mb-3">
+                                <label for="phone" class="form-label">Phone Number</label>
+                                <input type="tel" class="form-control rounded-pill" id="phone" name="phone" placeholder="Enter Phone Number" value="<%= user.phone %>" required>
+                            </div>
+
+                            <!-- Upload Image -->
+                            <div class="col-12 mb-3">
+                                <label for="image" class="form-label">Upload Image</label>
+                                <input type="file" class="form-control rounded-pill" id="image" name="image" aria-describedby="imageUploadHelp">
+                                <div class="text-center mt-3">
+                                    <img src="/<%= user.image %>" alt="User Image" width="100" class="img-thumbnail">
+                                </div>
+                                <small id="imageUploadHelp" class="form-text text-muted">Supported formats: JPG, PNG, JPEG. Max size: 2MB.</small>
+                            </div>
+
+                            <input type="hidden" name="old_image" value="<%= user.image %>">
+
+                            <!-- Submit and Back Buttons -->
+                            <div class="col-12 d-flex justify-content-between">
+                                <button type="button" class="btn btn-outline-secondary rounded-pill" onclick="window.history.back()">
+                                    <i class="fas fa-arrow-left me-2"></i>Back
+                                </button>
+                                <button type="submit" class="btn btn-success rounded-pill">
+                                    <i class="fas fa-save me-2"></i>Update User
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<%- include('layout/footer') %>
