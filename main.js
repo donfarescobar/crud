@@ -28,7 +28,7 @@ app.use(express.json());
 
 // static
 app.use(express.static('public'));
-
+app.use('/uploads', express.static('uploads'));
 app.use(
      session({
         secret: "my secret key",

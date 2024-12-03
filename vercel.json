@@ -37,7 +37,7 @@
     }
   ],
   "env": {
-   "MONGODB_URI" :" mongodb+srv://jafarbhr86:vHRve9Pv5aUDD1CQ@donshop.zmfmp.mongodb.net/?retryWrites=true&w=majority&appName=DonShop"
+   "MONGODB_URI" :" mongodb+srv://jafarbhr86:vHRve9Pv5aUDD1CQ@donshop.zmfmp.mongodb.net/crud?retryWrites=true&w=majority&appName=DonShop"
   },
   "functions": {
     "main.js": {
