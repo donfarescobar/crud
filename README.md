@@ -60,22 +60,6 @@ npm start
 
 The application will be available at `http://localhost:5000`
 
-## 📁 Project Structure
-
-├── models/
-│   └── users.js
-├── public/
-│   ├── css/
-│   └── images/
-├── routes/
-│   └── routes.js
-├── uploads/
-├── views/
-│   ├── layout/
-│   └── pages/
-├── main.js
-└── package.json
-
 
 ## 🛠 API Endpoints
 
