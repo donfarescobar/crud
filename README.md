@@ -70,5 +70,5 @@ The application will be available at `http://localhost:5000`
 
 
 
-This README.md provides a clear overview of your Hospital Web application, including its features, tech stack, setup instructions, and project structure. Feel free to customize it further based on your specific needs!
+This README.md provides a clear overview of your Admin Dashboard Web , including its features, tech stack, setup instructions, and project structure. Feel free to customize it further based on your specific needs!
 
