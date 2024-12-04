@@ -62,9 +62,6 @@ The application will be available at `http://localhost:5000`
 
 ## 📁 Project Structure
 
-
-
-
 ├── models/
 │   └── users.js
 ├── public/
