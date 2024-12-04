@@ -1,1 +1,50 @@
+# Dependencies
+/node_modules
+/package-lock.json
+/yarn.lock
+
+# Environment Variables
 .env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# IDE and Editor Files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Debug Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs
+*.log
+
+# MongoDB
+/data/db
+*.mongodb
+mongod.lock
+mongodb.log
+
+# Build and Cache
+/dist
+/build
+.cache/
+public/uploads/
+uploads/
+
+# System Files
+Thumbs.db
+.DS_Store
+*.pem
+
+# EJS Cache
+*.ejs.cache
+
+# Bootstrap (if using local files)
+/public/bootstrap/
+/assets/bootstrap/
