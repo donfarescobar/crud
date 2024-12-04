@@ -34,8 +34,7 @@ mongodb.log
 /dist
 /build
 .cache/
-public/uploads/
-uploads/
+
 
 # System Files
 Thumbs.db
