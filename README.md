@@ -67,3 +67,8 @@ The application will be available at `http://localhost:5000`
 - POST   /api/data     - Create new data
 - PUT    /api/data/:id - Update data by ID
 - DELETE /api/data/:id - Delete data by ID
+
+
+
+This README.md provides a clear overview of your Hospital Web application, including its features, tech stack, setup instructions, and project structure. Feel free to customize it further based on your specific needs!
+
