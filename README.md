@@ -60,25 +60,6 @@ npm start
 
 The application will be available at `http://localhost:5000`
 
-## 📁 Project Structure
-
-
-
-
-├── models/
-│   └── users.js
-├── public/
-│   ├── css/
-│   └── images/
-├── routes/
-│   └── routes.js
-├── uploads/
-├── views/
-│   ├── layout/
-│   └── pages/
-├── main.js
-└── package.json
-
 
 ## 🛠 API Endpoints
 
@@ -86,3 +67,8 @@ The application will be available at `http://localhost:5000`
 - POST   /api/data     - Create new data
 - PUT    /api/data/:id - Update data by ID
 - DELETE /api/data/:id - Delete data by ID
+
+
+
+This README.md provides a clear overview of your Admin Dashboard Web , including its features, tech stack, setup instructions, and project structure. Feel free to customize it further based on your specific needs!
+

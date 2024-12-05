@@ -17,4 +17,3 @@
 *.mongodb
 mongod.lock
 mongodb.log
-
